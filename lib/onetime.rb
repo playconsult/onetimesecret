@@ -11,6 +11,7 @@ require 'syslog'
 
 require 'sysinfo'
 require 'gibbler'
+require 'gibbler/mixins'
 require 'familia'
 require 'storable'
 
@@ -332,5 +333,3 @@ OT = Onetime
 require 'onetime/models'
 require 'onetime/logic'
 require 'onetime/email'
-
-
